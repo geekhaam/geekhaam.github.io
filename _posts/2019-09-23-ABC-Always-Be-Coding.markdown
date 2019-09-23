@@ -5,7 +5,7 @@ comment: true
 image: assets/images/coding.jpg
 categories: Interview Tips
 ---
-It's my first post!  
+It's my first post! :grinning:  
 # Technical Tips  
 **1. ABC (Always Be Coding).** The more you code, the better you’ll get — it’s that simple. By coding, you’re practicing. But the best practice is focused practice. Have goals in mind, explore new areas, and challenge yourself. Over time, you should develop a portfolio of both unfinished and finished projects. GitHub is a great place to put this portfolio on display, but just having eat place to put this portfolio on display, but just havan eclectic body of work is huge.  
 **2. Master at least one multi-paradigm language.** Mastering a language gives you a great sense of perspective. To do this, you must write a lot of code, read a lot more, and learn the gotchas and best practices. Ideally the language has a vibrant community, runs a lot of production code and is reasonably en vogue. Some good candidates are C#, C++, Java, PHP, Python, and Ruby.  
