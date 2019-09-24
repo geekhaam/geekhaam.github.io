@@ -1,11 +1,11 @@
 ---
 layout: post
-title : "JSP - Cookie"
+title : "JSP:Day06 - Cookie"
 comment: true
 categories: JSP Cookie
 ---
 
-#쿠키(Cookie)
+#쿠키(Cookie)  
 
 - 웹 브라우저에서 서버로 어떤 데이터를 요청하면, 서버측에서는 알맞은 로직을 수행한 후 데이터를 웹 브라우저에 응답합니다.
 - 그리고 Http 프로토콜은 응답 후에 웹 브라우저와의 관계를 종료합니다.
@@ -39,4 +39,3 @@ Spring Framework은 위 메서드를 보유하고 있습니다.)
   기존의 쿠키를 불러온 다음에 수명을 0초로 재설정한 후 클라이언트로 다시 전송합니다.  
   `cookie.setMaxAge(0);`  
   `response.addCookie(cookie);`
-___
