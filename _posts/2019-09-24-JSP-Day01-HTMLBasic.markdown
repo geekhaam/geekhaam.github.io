@@ -43,8 +43,8 @@ ___
 <h2>블록 요소 성질</h2>
 <p>앞뒤로 줄 바꿈이 생깁니다.</p>
 ```  
-![block-element](C:../assets/images/block-elements.png"블록 요소")  
-
+![block-element](/assets/iamges/block-elements.png)  
+  
 	* 블록 요소는 마크업시 자동으로 줄바꿈이 일어나는 요소를 말합니다.
 	* 블록 요소 안에는 텍스트와 인라인 요소를 포함할 수 있습니다.
 	* 대표적으로 `<h1>` ~ `<h6>` , `<p>` 등이 있습니다.  
@@ -58,8 +58,8 @@ ___
     <a href="#">인라인 요소 링크</a>
 </p>
 ```  
-![inline-elements](../assets/images/inline-elements.png"인라인 요소")  
-
+![inline-elements](/assets/images/inline-elements.png)  
+  
 	* 인라인 요소는 마크업시 줄바꿈이 일어나지 않는 요소를 말합니다.
 	* 인라인 요소 안에는 텍스트와 인라인 요소를 포함할 수 있습니다.
 	* 인라인 요소는 블록 요소를 포함할 수 없습니다.
