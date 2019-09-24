@@ -1,11 +1,11 @@
 ---
 layout: post
-title: JSP: Day01 - HTML Basic
+title: "JSP: Day01 - HTML Basic"
 comment: true
 categories: JSP HTML Basic
 ---
 *JSP(Java Server Page)를 배우기 앞서 HTML의 기초적인 지식을 알아봅니다. JSP는 HTML내에 자바 코드를 삽입하여 웹 서버에서 동적으로 웹 페이지를 생성하여 웹 브라우저에 돌려주는 언어이기 때문에 HTML에 대한 기본적인 지식이 선행되어야 합니다.*  
-#HTML 기초
+# HTML 기초
 Hyper Text Markup Language의 약자로 웹페이지를 제작할 때 기본 구조를 만드는 언어입니다.
 * 용어 정리
 1. 태그: 명령어의 형태가 <>로 되어있는 것들.
