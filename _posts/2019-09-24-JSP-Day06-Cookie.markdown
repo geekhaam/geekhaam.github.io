@@ -14,26 +14,23 @@ categories: JSP Cookie
 
 - 쿠키문법: 쿠키클래스에서 쿠키 생성 -> setter메서드로 쿠키의 속성 설정 -> response객체에 쿠키 탑재 -> 로컬 환경에 저장
 
-- **Cookie 객체 관련 메서드**
-
-1. `setMaxAge()`: 쿠키의 유효시간을 설정합니다.
-2. `setPath()`: 쿠키사용의 유효디렉토리를 설정합니다.
-3. `setValue()`: 쿠키의 값을 설정합니다.
-4. `setVersion()`: 쿠키 버전을 설정합니다.
-5. `getMaxAge()`: 쿠키 유효 기간 정보를 얻습니다.
-6. `getName()`: 쿠키의 이름을 얻습니다.
-7. `getPath()`: 쿠키사용의 유효 디렉토리 정보를 얻습니다.
-8. `getValue()`: 쿠키의 값을 얻습니다.
-9. `getVersion()`: 쿠키 버전을 얻습니다.
-
-- **Cookie 불러오는 메서드**
-
-  JSP에서는 request.getCookies() 반환 값이 배열[] 이므로 배열에 저장해야 합니다.  
-(하나만 불러오기 위해선 순차 탐색 메서드를 만들어서 비교 후 불러와야 합니다.
+* **Cookie 객체 관련 메서드**
+	1. `setMaxAge()`: 쿠키의 유효시간을 설정합니다.
+	2. `setPath()`: 쿠키사용의 유효디렉토리를 설정합니다.
+    3. `setValue()`: 쿠키의 값을 설정합니다.
+    4. `setVersion()`: 쿠키 버전을 설정합니다.
+    5. `getMaxAge()`: 쿠키 유효 기간 정보를 얻습니다.
+    6. `getName()`: 쿠키의 이름을 얻습니다.
+    7. `getPath()`: 쿠키사용의 유효 디렉토리 정보를 얻습니다.
+    8. `getValue()`: 쿠키의 값을 얻습니다.
+    9. `getVersion()`: 쿠키 버전을 얻습니다.
+	
+* **Cookie 불러오는 메서드**
+JSP에서는 request.getCookies() 반환 값이 배열[] 이므로 배열에 저장해야 합니다.  
+하나만 불러오기 위해선 순차 탐색 메서드를 만들어서 비교 후 불러와야 합니다.
 Spring Framework은 위 메서드를 보유하고 있습니다.)  
 
-- **Cookie 삭제**
-
-  기존의 쿠키를 불러온 다음에 수명을 0초로 재설정한 후 클라이언트로 다시 전송합니다.  
-  `cookie.setMaxAge(0);`  
-  `response.addCookie(cookie);`
+* **Cookie 삭제**
+기존의 쿠키를 불러온 다음에 수명을 0초로 재설정한 후 클라이언트로 다시 전송합니다.  
+`cookie.setMaxAge(0);`  
+`response.addCookie(cookie);`
