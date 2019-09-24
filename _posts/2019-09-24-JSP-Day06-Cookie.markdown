@@ -1,6 +1,6 @@
 ---
 layout: post
-title : "JSP:Day06 - Cookie"
+title : "JSP: Day06 - Cookie"
 comment: true
 categories: JSP Cookie
 ---
