@@ -1,8 +1,8 @@
-title: JB's Coding Note
-author: JB H
-email: geekhaam@gmail.com
+title: "JB's Coding Note"
+author: "JB H"
+email: "geekhaam@gmail.com"
 description: > # this means to ignore newlines until "show_exerpts:"
-  Coding Playgrounds
+  "Coding Playgrounds"
 show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
