@@ -55,7 +55,7 @@ ___
 <p>앞뒤로 줄 바꿈이 생깁니다.</p>
 ```
 
-![block-elements](/assets/images/block-elements.png "블록 요소")
+![block-elements](../assets/images/block-elements.PNG "블록 요소")
 
 ___
 
@@ -74,5 +74,5 @@ ___
 </p>
 ```
 
-![inline-elements](/assets/images/inline-elements.png "인라인 요소")
+![inline-elements](../assets/images/inline-elements.PNG "인라인 요소")
 
